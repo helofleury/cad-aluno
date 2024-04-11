@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+</head>
+<body>
+    <h1>Formulário do Aluno</h1>
+    
+    <br>
+
+    <form action="inscricao.php" method="post">
+        Nome:<input type="text" name="nome" id="nome" required><br><br>
+        CPF: <input type="number" name="cpf" id="cpf" required> <br><br>
+        E-mail<input type="email" name="email" id="email" required> <br><br>
+        Idade<input type="number" name="idade" id="idade" required> <br><br>
+
+        
+        <label for="curso">Curso:</label><br>
+
+        <select name="curso" id="curso"><br>
+            <option value="desenvolvimento">Desenvolvimento de Sistemas</option>
+            <option value="contabilidade">Contabilidade</option>
+            <option value="administracao">Administração</option>            
+
+
+        </select><br><br>
+
+        <h1>Endereço</h1>
+
+        Rua:<input type="text" name="rua" id="rua" required><br><br>
+        Número:<input type="number" name="numero" id="numero" required> <br><br>
+        Complemento:<input type="text" name="complemento" id="complemento" required> <br><br>
+        Bairro:<input type="text" name="bairro" id="bairro" required> <br><br>
+        Cidade:<input type="text" name="cidade" id="cidade" required> <br><br>
+        Estado:<input type="text" name="estado" id="estado" required> <br><br>
+
+        <input type="submit">
+
+    </form>
+
+</body>
+</html>
